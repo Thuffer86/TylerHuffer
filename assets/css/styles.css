@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #2c3e50;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    background-color: #eeeeee;
+    margin: 0 auto;
+}
+ 
+.site__container {
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        height: 1000px; /*****************************THIS IS NOT STAYING*********
+    **********************************************
+**************************************************************
+********************************************************************************/
+        background-color: #fff;
+/********************************************************************************************************************************************************************************************************************SAME**************************/
+    
+}
+
+.nav__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1.2em 10%;
+    flex-flow: column wrap;
+}
+
+.navigation__items {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+.navigation__items a {
+    text-decoration: none;
+    display: block;
+    margin: 0 .7em;
+    font-size: 15px;
+    font-weight: 400;
+    transition: .35s;
+    font-weight: 400;
+    padding: .7em 0;
+    position: relative;
+}
+
+
+
+.logo {
+    border: groove 13px #F7786B;
+    width: 32px;
+    box-shadow: 1px -2px 6px rgba(0,0,0, 0.5);
+    transform: rotate(-225deg);
+    height: 32px;
+    margin: 8px auto;
+    animation: animate 1.75s linear infinite;
+}
+
+.logo__container h6 {
+    margin: -4px 0px 10px 0px;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: 'yellowtail', cursive;
+}
+
