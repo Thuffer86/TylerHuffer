@@ -152,6 +152,7 @@ button {
     border-right: solid 2px #BF5246;
     border-radius: 2px;
     border-bottom: solid 3px #BF5246;
+
 }
 
 button a {
@@ -210,7 +211,7 @@ button:hover, button:active {
 }
 
 .section__container-about hr {
-    margin: -15px 0 25px 0;
+    margin: -15px 0 25px 0 !important;
 }
 
 .section__container-about p span {
