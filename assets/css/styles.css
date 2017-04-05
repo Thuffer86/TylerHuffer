@@ -436,7 +436,7 @@ button:hover, button:active {
 
 
 
-   @media (max-width: 344px) {
+   @media  all and (max-width: 344px) {
        
        .section__availability h2 {
            
@@ -446,13 +446,13 @@ button:hover, button:active {
 
 
 
-@media (min-width: 480px) {
+@media all and (min-width: 480px) {
     
     .card__image {
         height: 250px;
 }
     
-@media (min-width: 768px) {
+@media all and  (min-width: 768px) {
     
     .card__image {
         height: 180px;
@@ -525,7 +525,7 @@ button:hover, button:active {
 
 }
     
-    @media (min-width: 992px) {
+    @media all and  (min-width: 992px) {
        
     .col-right {
         margin-top: 0px; /******Not Responsive******/
