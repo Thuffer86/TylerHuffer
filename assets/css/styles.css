@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +29,7 @@ hr {
 
 .container h2 {
     text-align: center;
+    font-family: 'lobster', cursive;
     font-size: 32px;
 }
 
@@ -66,35 +69,34 @@ body {
     text-decoration: none;
     display: block;
     margin: 0 .7em;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     transition: .35s;
-    font-weight: 400;
     padding: .7em 0;
     position: relative;
 }
 
 .logo {
-    border: groove 13px #FF6E5E;
-    width: 32px;
-    border-radius: 0px;
+    border: groove 12px #FF6E5E;
+    border-radius: 3px;
+    width: 30px;
     transform: rotate(-225deg);
-    height: 32px;
+    height: 30px;
     margin: 8px auto;
 }
 
 .logo__container h6 {
-    margin: -4px 0px 10px 0px;
-    font-size: 32px;
+    margin: -4px 0px 15px 0px;
+    font-size: 30px;
     font-weight: 300;
     font-family: 'yellowtail', cursive;
 }
 
 header {
     position: relative;
-    padding: 8em 0;
+    padding: 7em 0;
     overflow: hidden;
-    background: url(../images/test.jpg) center center no-repeat;
+    background-image: url(../images/test.jpg);
     background-size: cover;
 }
 
@@ -107,42 +109,44 @@ header h1 {
     position: relative;
     color: white;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 44px;
+    font-family: 'lobster', cursive;
     max-width: 80%;
+    text-shadow: 3px 1px 2px rgba(17,43,62, 1);
     margin: 0 auto;
 }
 
 button {
-    font-weight: 400;
     display: inline-block;
     margin: 0 10px;
     text-align: center;
     background-color: #FF6E5E;
-    padding: 0 .6em;
-    height: 60px;
+    padding: 0 .8em;
+    height: 52px;
     transition: .35s;
     cursor: pointer;
-    font-size: 15px;
-    font-family: 'montserrat', sans-serif;
+    font-size: 12px;
+    border-radius: 3px;
     border-top: none;
     border-left: none;
     border-right: solid 1px #BF5246;
-    border-bottom: solid 1px #BF5246;
+    border-bottom: solid 2px #BF5246;
 }
 
 button a {
     color: #ffffff;
-    line-height: 60px;
+    line-height: 52px;
     padding: 0px 5px;
-    font-weight: 400;
+    font-weight: 700;
     text-decoration: none;
 }
 
 button:hover,
 button:active {
     transform: translateY(1px);
-    background-color: #ff8176;
-    border-color: #ff8176;
+    border-right: solid 1px #ff6e5e;
+    border-bottom: solid 1px #ff6e5e;
+    background-color: #ff7d70; 
 }
 
 .button__container {
@@ -172,6 +176,8 @@ button:active {
 .section__container-about h2 {
     margin-bottom: 30px;
     text-align: left;
+
+    
 }
 
 .section__container-about hr {
@@ -277,6 +283,8 @@ button:active {
     max-width: 90%;
     margin: 0 auto 30px auto;
     font-size: 32px;
+            font-family: 'lobster', cursive;
+
 }
 
 .process {
@@ -390,7 +398,7 @@ button:active {
     }
     .logo__container {
         display: flex;
-        margin: 15px 0;
+        margin: 12px 0;
     }
     .logo__container h6 {
         margin: 0 0 0 15px;
@@ -398,9 +406,7 @@ button:active {
     .navigation__items {
         flex-flow: row;
     }
-    .navigation__items a {
-        font-size: 15px;
-    }
+
     .navigation__items a:hover:before {
         visibility: visible;
         -moz-transform: scaleX(1);
