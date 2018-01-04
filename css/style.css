@@ -1,0 +1,757 @@
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("fonts/Proxima-Nova-Regular.ttf") format("ttf");
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background-color: #fff;
+    font-family: 'proxima nova', Georgia, sans-serif;
+    color: #2A1662;
+  }
+
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 768px;
+  background-color: #fff;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 10;
+}
+
+
+
+  .landing {
+    position: absolute;
+    width: 100%;
+    height: 768px;
+    z-index: 15;
+    background-position: center top;
+    background-image: url("../images/background.png");
+  }
+
+  .logo {
+    text-decoration: none;
+    color: #2A1662;
+    font-size: 33px;
+    font-weight: 300;
+    z-index: 100;
+    margin-left: 5px;
+    font-family: 'yellowtail', cursive;
+  }
+
+  ul {
+    position: relative;
+    z-index: 16;
+  }
+
+  ul li .btn {
+    color: #af00fa;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 12px 15px;
+  }
+
+  ul li .btn:hover {
+    padding: 12px 20px;
+  }
+
+  a .logobox {
+    font-family: 'proxima_nova_altblack', Georgia, sans-serif;
+    position: relative;
+    top: 0px;
+    left: -5px;
+    background: #af00fa;  /* fallback for old browsers */
+    display: inline-block;
+    width: 38px;
+    font-size: 28px;
+    border-radius: 3px;
+    height: 38px;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+  }
+
+
+.nav__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1.2em 10%;
+    flex-flow: column wrap;
+}
+
+.navigation__items {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+.navigation__items a {
+    text-decoration: none;
+    display: block;
+    font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+
+    margin: 0 .7em;
+    font-size: 17px;
+    transition: .35s;
+    text-transform: capitalize;
+    padding: .7em 0;
+    position: relative;
+    color: #fff;
+}
+
+
+.title__container {
+  width: 80%;
+  float: left;
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+
+
+.floater__container {
+  position: relative;
+  float:right;
+  width: 45%;
+  right: 0;
+  top: 48%;
+  transform: translateY(-50%);
+  height: 660px;
+  background-image: url('../images/test.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: none;
+}
+
+
+.jumbo__container {
+  z-index: 16;
+   position: relative;
+   height: 668px;
+   overflow: hidden;
+   padding: 0 10%;
+}
+
+.title__container p {
+   font-size: 21px;
+   width: 60%;
+   line-height: 1.6;
+   color: #64628d;
+   margin: 20px 0 15px 0;
+}
+
+
+.title__container h2 {
+   position: relative;
+   font-size: 66px;
+   font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+   color: #2A1662;
+}
+
+.button__container a {
+   color: #fff;
+   background: #af00fa;  /* fallback for old browsers */
+   padding: 25px 25px;
+   font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+   text-decoration: none;
+   display: inline-block;
+   transition: .35s;
+   cursor: pointer;
+   font-size: 20px;
+   border-radius: 40px;
+}
+
+.button__container a:hover,
+.button__container a:active {
+  padding: 25px 32px;
+  transition: .35s;
+}
+
+
+.button__container {
+   margin: 0 auto;
+   padding-top: 30px;
+}
+
+.sweet {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  background-image: url('../images/sweet.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about {
+  margin-top: 100px;
+  background-color: #fcf8fe;
+  padding: 5% 0;
+  width: 100%;
+  border-bottom: solid 1px #e2d8e6;
+  height: auto
+}
+
+
+#about {
+  width: 100% !important;
+
+}
+
+
+.container__about p {
+    font-size: 18px;
+    line-height: 1.65;
+    color: #74729d;
+    width: 75%;
+    margin: 10px auto 0 auto;
+    margin-top: 20px;
+}
+
+
+.work {
+  margin-top: 60px;
+  background-color: #fcf8fe;
+  position: relative;
+  width: 100%;
+  z-index: -1;
+}
+
+.container__about {
+  text-align: center;
+}
+
+
+.container__about h2 {
+  font-size: 42px;
+  font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+}
+
+hr {
+  width: 50px;
+  margin: 10px auto 0 auto;
+  height: 5px;
+  border-radius: 3px;
+  background-color: #00fe89;
+  border: none;
+}
+
+.card img {
+  width: 100%;
+  height: 90px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.bubble {
+    width: 170px;
+    height: 170px;
+    margin: 80px auto 0 auto;
+    border-radius: 50%;
+    border: solid 4px #00fe89;
+
+    background-color: #fff;
+}
+
+.card h4 {
+  margin-top: 35px;
+  margin-bottom: -5px;
+  font-size: 21px;
+  font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+
+}
+
+.card p {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+
+.center {
+  margin: 0 auto;
+}
+
+
+.section__availability {
+  background: #2A1662;  /* fallback for old browsers */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.section__availability h2 {
+    color: #fff;
+    max-width: 520px;
+    line-height: 1.6;
+    width: 80%;
+    font-size: 36px;
+    margin: 0 auto 30px auto;
+    font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+
+}
+
+.section__availability span {
+    color: #00fe89;
+
+}
+
+.section__availability a {
+
+     color: #00fe89;
+     background: transparent;  /* fallback for old browsers */
+     font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+     text-decoration: none;
+     display: inline-block;
+     transition: .35s;
+     cursor: pointer;
+     font-size: 23px;
+     padding: 22px 25px;
+     border: solid 4px #00fe89;
+     border-radius: 40px;
+
+}
+
+.section__availability a:hover {
+  color: #2A1662;
+  background-color: #00fe89;
+  padding: 22px 32px;
+}
+
+.work h2 {
+  font-size: 42px;
+  font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.section__container-work {
+    background-color: #f8f8f8;
+    border-top: solid 1px #dfdfdf;
+    border-right: solid 1px #dfdfdf;
+    border-left: solid 1px #dfdfdf;
+    width: 100% !important;
+}
+
+.work p {
+text-align: center;
+font-size: 17px;
+line-height: 1.6;
+color: #64628d;
+max-width: 75%;
+margin: 0 auto 60px auto;
+}
+
+.work hr {
+    margin-bottom: 40px;
+    background-color: #af00fa;
+
+}
+
+
+.work {
+  padding: 5% 0 5% 0;
+  z-index: 100;
+  margin-top: 0px;
+}
+
+
+.portfolio__card {
+    display: block;
+    width: 80%;
+    max-width: 400px !important;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0px auto 45px auto;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: .35s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    padding-top: 15px;
+}
+
+
+.portfolio__card:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translateY(-3px);
+}
+
+.card__title h3 {
+    color: #2A1662;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 20px;
+    font-family:  'proxima_nova_altbold', Georgia, sans-serif;
+}
+
+.card__image {
+    display: block;
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    transition: .35s;
+}
+
+
+.footer {
+  background-color: #2A1662;
+  width: 100%;
+  text-align: left;
+  font-size: 13px;
+  padding: 5% 10%;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+}
+
+.footer .aboutme {
+  line-height: 1.6;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .aboutme span {
+  display: block;
+  color: #ffffff;
+  font-size: 22px;
+  font-family:  'proxima_nova_altbold', Georgia, sans-serif;
+  margin-bottom: 10px;
+}
+
+.footer .icons {
+  margin-top: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #64628d;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.footer .icons a:hover {
+  background-color: #af00fa;
+}
+
+
+/* footer center*/
+
+.footer .footer-center {
+  width: 30%;
+}
+
+.footer .footer-center i {
+  background-color: #64628d;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: #00fe89;
+  text-decoration: none;
+}
+
+
+/* footer right*/
+
+.footer .footer-right {
+  width: 35%;
+}
+
+.logo__invert {
+  color: #ffffff;
+}
+
+.footer h2 {
+  color: #ffffff;
+  font-size: 36px;
+  margin: 0;
+}
+
+.footer h2 span {
+  color: #00fe89;
+}
+
+.footer .menu {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.6;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .menu a:hover {
+  color: #00fe89;
+}
+
+.footer .name {
+  color: #00fe89;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+
+  .landing {
+    display: none;
+  }
+
+.about  {
+  padding-bottom: 50px;
+}
+
+  .jumbo__container {
+    border-top: solid 1px #ccc;
+    background-color: #af00fa;
+    height: 550px;
+    padding-top: 60px;
+    margin-bottom: -50px;
+  }
+
+  .title__container h2 {
+    color :#fff;
+    font-size: 48px;
+    max-width: 400px;
+  }
+
+  .title__container p {
+    color: #fff;
+    font-size: 18px;
+    width: 90%;
+    max-width: 300px;
+  }
+
+
+
+  .aboutme span {
+    margin-top: 20px;
+  }
+
+  .title__container a {
+    color: #fff;
+    background: transparent;  /* fallback for old browsers */
+    font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    transition: .35s;
+    cursor: pointer;
+    font-size: 23px;
+    padding: 22px 22px;
+    border: solid 4px #fff;
+    border-radius: 40px;
+  }
+
+.container h2 {
+  font-size: 30px;
+}
+
+.container p {
+  font-size: 16px;
+  width: 90%;
+
+}
+
+.work p {
+  max-width: 90%;
+}
+
+.section__availability h2 {
+    width: 90%;
+    font-size: 30px;
+}
+
+.title__container span {
+    color: #00fe89;
+}
+  .title__container a:hover, .title__container a:active {
+    background-color: #00fe89;
+    color: #af00fa;
+    border-color: #00fe89;
+    padding: 22px 22px;
+  }
+
+  #particles-js {
+    display: none;
+  }
+
+.title__container {
+  width: 100%;
+}
+
+.floater__container {
+  display: none;
+}
+
+.portfolio__card {
+  max-width: 300px;
+}
+
+  .logobox {
+    margin-bottom: 20px;
+  }
+
+  ul li .btn {
+    color: #2A1662;
+  }
+
+  .nav__flex {
+
+  }
+
+.navigation__items a {
+  color: #2A1662;
+  font-family: 'proxima nova', Georgia, sans-serif;
+
+}
+
+
+
+
+
+
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+
+
+@media all and (min-width:768px) {
+
+  .nav__flex {
+      flex-flow: row;
+      padding: 10px 10%;
+  }
+  .logo__container {
+      display: flex;
+      margin: 12px 0;
+  }
+  .logo__container h6 {
+      margin: 0 0 0 15px;
+  }
+  .navigation__items {
+      flex-flow: row;
+  }
+
+  .navigation__items .link:hover:before {
+      visibility: visible;
+      -moz-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+  }
+  .navigation__items .link:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      bottom: -2px;
+      background: #00fe89;
+      visibility: hidden;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+      -moz-transform: scaleX(0);
+      -ms-transform: scaleX(0);
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+}
+
+@media all and (min-width: 1020px) {
+
+  .title__container {
+    width: 50%;
+  }
+
+  .floater__container {
+    width: 50%;
+    display: block;
+  }
+}
+
+}
