@@ -8,6 +8,7 @@
   margin: 0;
 }
 
+
 body {
   background-color: #fff;
   font-family: 'proxima nova', Georgia, sans-serif;
@@ -618,18 +619,7 @@ hr {
     color: #2A1662;
     font-family: 'proxima nova', Georgia, sans-serif;
   }
-  .paper {
-    width: 60%;
-  }
-  .project__container {
-    height: 525px;
-  }
-  .project__wrap h2 {
-    font-size: 42px;
-  }
-  .project__wrap p {
-    font-size: 16px;
-  }
+
   .footer {
     font-size: 14px;
   }
