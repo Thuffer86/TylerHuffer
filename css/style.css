@@ -531,6 +531,90 @@ hr {
   margin: 0;
 }
 
+.invert__links li a {
+  color: #2A1662;
+  font-family: 'proxima nova', Georgia, sans-serif;
+}
+
+.project__container {
+  width: 60%;
+  margin: 30px auto 0 auto;
+  height: 515px;
+  background-size: cover;
+  border-right: solid 1px #d8d8d8;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.project__container-colorlab {
+    background-image: url('../images/Colorlab.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.project__container-dorado {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../images/dorado-bg.jpg');
+
+}
+
+
+.project__container-formleaf {
+    background-image: url('../images/formleaf.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+.project__wrap {
+  background-color: #fff;
+  height: auto;
+  width: 100%;
+  padding: 0px 0px 60px 0px;
+}
+
+.paper {
+  background-color: #fff;
+  width: 60%;
+  margin: 60px auto 0 auto;
+  padding: 60px 10%;
+  border: solid 1px #d8d8d8;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.project__wrap h3 {
+  font-size: 12px;
+  line-height: 1.6;
+  width: auto;
+  display: inline-block;
+  font-weight: 700;
+  color: #fff;
+  padding: 3px 12px;
+  background-color: #af00fa;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.project__wrap h2 {
+  margin: 0px auto 0 auto;
+  font-size: 36px;
+  font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+  line-height: 1.2;
+}
+
+.project__wrap p {
+  font-size: 19px;
+  line-height: 1.65;
+  margin: 0 auto;
+  opacity: .8;
+  font-weight: 400;
+}
+
+
+
+
 @media (max-width: 767px) {
   .landing {
     display: none;
