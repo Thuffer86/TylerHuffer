@@ -537,7 +537,7 @@ hr {
 }
 
 .project__container {
-  width: 60%;
+  width: 70%;
   margin: 30px auto 0 auto;
   height: 515px;
   background-size: cover;
@@ -576,7 +576,7 @@ hr {
 
 .paper {
   background-color: #fff;
-  width: 60%;
+  width: 70%;
   margin: 60px auto 0 auto;
   padding: 60px 10%;
   border: solid 1px #d8d8d8;
@@ -619,6 +619,21 @@ hr {
   .landing {
     display: none;
   }
+
+
+  .paper {
+    background-color: #fff;
+    width: 90%;
+  }
+
+  .paper p {
+    font-size: 17px;
+  }
+  .project__container {
+    width: 100%;
+    box-shadow: none;
+}
+
   .about {
     padding-bottom: 50px;
   }
