@@ -537,7 +537,7 @@ hr {
 }
 
 .project__container {
-  width: 70%;
+  width: 60%;
   margin: 30px auto 0 auto;
   height: 515px;
   background-size: cover;
@@ -576,7 +576,7 @@ hr {
 
 .paper {
   background-color: #fff;
-  width: 70%;
+  width: 60%;
   margin: 60px auto 0 auto;
   padding: 60px 10%;
   border: solid 1px #d8d8d8;
