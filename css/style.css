@@ -639,7 +639,7 @@ hr {
   }
   .jumbo__container {
     border-top: solid 1px #ccc;
-    background-color: #af00fa;
+    background-color: #2A1662;
     height: 550px;
     padding-top: 60px;
     margin-bottom: -50px;
@@ -659,7 +659,7 @@ hr {
     margin-top: 20px;
   }
   .title__container a {
-    color: #fff;
+    color: #00fe89;
     background: transparent;
     /* fallback for old browsers */
     font-family: 'proxima_nova_altbold', Georgia, sans-serif;
@@ -669,7 +669,7 @@ hr {
     cursor: pointer;
     font-size: 23px;
     padding: 22px 22px;
-    border: solid 4px #fff;
+    border: solid 4px #00fe89;
     border-radius: 40px;
   }
   .container h2 {
@@ -691,7 +691,7 @@ hr {
   }
   .title__container a:hover, .title__container a:active {
     background-color: #00fe89;
-    color: #af00fa;
+    color: #2a1662;
     border-color: #00fe89;
     padding: 22px 22px;
   }
