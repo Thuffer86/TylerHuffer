@@ -119,12 +119,12 @@ a .logobox {
 .floater__container {
   position: relative;
   float: right;
-  width: 45%;
+  width: 50%;
   right: 0;
-  top: 48%;
+  top: 53%;
   transform: translateY(-50%);
-  height: 660px;
-  background-image: url('../images/test.png');
+  height: 650px;
+  background-image: url('../images/test2.png');
   background-size: contain;
   background-repeat: no-repeat;
   display: none;
@@ -139,8 +139,8 @@ a .logobox {
 }
 
 .title__container p {
-  font-size: 21px;
-  width: 60%;
+  font-size: 20px;
+  width: 65%;
   line-height: 1.6;
   color: #64628d;
   margin: 20px 0 15px 0;
@@ -148,7 +148,7 @@ a .logobox {
 
 .title__container h2 {
   position: relative;
-  font-size: 66px;
+  font-size: 60px;
   font-family: 'proxima_nova_altbold', Georgia, sans-serif;
   color: #2A1662;
 }
