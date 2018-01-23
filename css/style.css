@@ -9,6 +9,7 @@
 }
 
 
+
 body {
   background-color: #fff;
   font-family: 'proxima nova', Georgia, sans-serif;
@@ -139,7 +140,7 @@ a .logobox {
 }
 
 .title__container p {
-  font-size: 20px;
+  font-size: 22px;
   width: 65%;
   line-height: 1.6;
   color: #64628d;
@@ -148,7 +149,7 @@ a .logobox {
 
 .title__container h2 {
   position: relative;
-  font-size: 60px;
+  font-size: 64px;
   font-family: 'proxima_nova_altbold', Georgia, sans-serif;
   color: #2A1662;
 }
@@ -165,6 +166,7 @@ a .logobox {
   cursor: pointer;
   font-size: 20px;
   border-radius: 40px;
+  margin-right: 30px;
 }
 
 .button__container a:hover, .button__container a:active {
@@ -513,6 +515,7 @@ hr {
   padding: 0;
 }
 
+
 .footer .menu a {
   display: inline-block;
   line-height: 1.6;
@@ -520,9 +523,11 @@ hr {
   color: inherit;
 }
 
+
 .footer .menu a:hover {
   color: #00fe89;
 }
+
 
 .footer .name {
   color: #00fe89;
@@ -531,18 +536,18 @@ hr {
   margin: 0;
 }
 
+
 .invert__links li a {
   color: #2A1662;
   font-family: 'proxima nova', Georgia, sans-serif;
 }
 
+
 .project__container {
-  width: 60%;
+  width: 80%;
   margin: 30px auto 0 auto;
-  height: 515px;
+  height: 815px;
   background-size: cover;
-  border-right: solid 1px #d8d8d8;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .project__container-colorlab {
@@ -559,13 +564,42 @@ hr {
 }
 
 
-.project__container-formleaf {
-    background-image: url('../images/formleaf.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
+
+
+.coinspectr__container {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto 0 auto;
 }
 
+.coinspectr__content--project {
+  background-color: #fff;
+  border: solid 1px #ccc;
+  padding: 40px;
+  margin: 60px 0;
+}
 
+.coinspectr__content h1 {
+  font-size: 42px;
+  text-align: left;
+  margin-top: 40px;
+  font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+}
+
+.coinspectr__content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.coinspectr__content {
+  margin: 0 auto;
+  max-width: 60%;
+}
+
+.site__container-coin {
+  background-color: #f0f0f0;
+}
 
 .project__wrap {
   background-color: #fff;
@@ -616,6 +650,7 @@ hr {
 
 
 @media (max-width: 767px) {
+
   .landing {
     display: none;
   }
@@ -637,6 +672,7 @@ hr {
   .about {
     padding-bottom: 50px;
   }
+
   .jumbo__container {
     border-top: solid 1px #ccc;
     background-color: #2A1662;
@@ -644,20 +680,24 @@ hr {
     padding-top: 60px;
     margin-bottom: -50px;
   }
+
   .title__container h2 {
     color: #fff;
     font-size: 48px;
     max-width: 400px;
   }
+
   .title__container p {
     color: #fff;
     font-size: 18px;
     width: 90%;
     max-width: 300px;
   }
+
   .aboutme span {
     margin-top: 20px;
   }
+
   .title__container a {
     color: #00fe89;
     background: transparent;
@@ -672,9 +712,11 @@ hr {
     border: solid 4px #00fe89;
     border-radius: 40px;
   }
+
   .container h2 {
     font-size: 30px;
   }
+
   .container p {
     font-size: 16px;
     width: 90%;
